@@ -23,9 +23,6 @@ batasLuasBawahHijau = 300
 batasLuasAtasKuning = 10000
 batasLuasBawahKuning = 200
 
-#setpoint stopping
-LuasDermaga = 9000
-
 #inisiasi arduino
 port = '/dev/ttyUSB0'  
 bautRate = 9600
@@ -211,7 +208,6 @@ def main():
     try:
         ser = serial.Serial(port, bautRate, timeout=None)
         arduino = 'ada'
-        #startNyelem = 1000
     except:
         arduino = 'gada'
         print('------------gada arduino------------')
