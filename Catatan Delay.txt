@@ -1,0 +1,8 @@
+CATATAN DELAY
+Penggunaan CLOCK yang terlalu banyak dapat menyebabkan delay
+SOLUSINYA = Pengurangan Kode, baik pada LCD print, maupun
+pada kode-kode yang tidak diperlukan lainnya
+
+Penggunaan autonomous dan remote jika tidak menggunakan while
+loop, akan menyebabkan delay, sehingga gunakan while loop 
+agar kapal tidak mengalami delay
